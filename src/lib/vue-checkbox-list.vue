@@ -23,6 +23,7 @@
 </template>
 <script >
 export default{
+  name:'vue-checkbox-list',
   props:{
      'initlist':Array,
      'initname':'',
