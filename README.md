@@ -11,8 +11,9 @@ vue 多选下拉框插件( a  plugin for vue checkbox list)
 					    		          :inittype="category_type" @has_checked="get_selected">
 				          </allchose>
 
+
 参数说明:
-    initlist:传入的参数数组,要传json格式,ajax获得的数据最好先转成string再转成json
+    initlist:传入的参数数组,要传json格式,ajax获得的数据先转成string再转成json
     initname:下拉框标题,没有可不传
     inittype:使用多个多选下拉框可传不同参数,用来彼此区分
     has_checked:选择结束回调函数
