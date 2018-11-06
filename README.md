@@ -6,10 +6,11 @@ vue 多选下拉框插件( a  plugin for vue checkbox list)
 
 2.在.vue文件中
   import allchose from 'vue-checkbox-list'
+  
 
-					    		<allchose :initlist="category" :initname="category_name" 
-					    		          :inittype="category_type" @has_checked="get_selected">
-				          </allchose>
+    <allchose :initlist="category" :initname="category_name" 
+              :inittype="category_type" @has_checked="get_selected">
+    </allchose>
 
 
 参数说明:
@@ -30,18 +31,18 @@ vue 多选下拉框插件( a  plugin for vue checkbox list)
     ]
     每个对象的id属性必填,state默认为false,全选对象多个laststate,默认false
     
-   
+<br/>
 ENGLISH:
+<br/>
 Usage (.Vue single file):
 
 1.npm install vue-checkbox-list --save
 
 
 
-2. in the.Vue file
+2. in .Vue file
 
 Import allchose from'vue-checkbox-list'
-
 
 
 <allchose: initlist= "category": initname= "category_name"
