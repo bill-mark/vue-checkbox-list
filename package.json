@@ -1,7 +1,7 @@
 {
   "name": "vue-checkbox-list",
   "description": "a vue plugin for checkbok list",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "bill.mark <weiguicheng@foxmail.com>",
   "license": "MIT",
   "private": false,
